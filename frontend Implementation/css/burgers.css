@@ -1,0 +1,506 @@
+.first-category{
+    margin-top: 200px;
+}
+.flex-column li{
+    padding: 10px;
+}
+.side-nav{
+    width: 130px;
+    position: relative;
+    top: -500px;
+    bottom: 150px;
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+.flex-column li a{
+    color: black;
+}
+.main-navbar{
+    position: sticky;
+    top: 0px;
+
+}
+.main-navigation li{
+    margin-top: 10px;
+}
+.main-navigation li a{
+    color: black;
+}
+.search-form{
+    width: 300px;
+
+    position: relative;
+    top: -30px;
+    left: 300px;
+}
+.search-form ul li a{
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+}
+.main-navigation{
+    width: 400px;
+    top: 40px;
+
+}
+.btn-Search{
+    position: relative;
+    top: -37px;
+    left: 100px;
+}
+
+/* card */
+
+.small-card-title{
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+}
+.small-card-btn{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.small-card-para{
+    position: relative;
+    top: 80px;
+}
+
+/* card 1 */
+.card1{
+    height: 580px;
+
+    position: relative;
+    left: 200px;
+    top: -50px;
+
+    border-radius: 30px;
+}
+.card1 img{
+    width: 300px;
+
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+.card1 h5{
+    font-size: 25px;
+}
+.card1 a{
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+.card1 p{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-weight: bold;
+}
+/* card 2 */
+.card2{
+
+    top: -630px;
+    position: relative;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card2 img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+.card2 h5{
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+}
+.card2 p{
+    position: relative;
+    top: 80px;
+}
+.card2 a{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+
+/* card 3 */
+
+.card3{
+    position: relative;
+    top: -610px;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card3 h5{
+    position: relative;
+    top: 0px;
+}
+.card3 p{
+    position: relative;
+    top: 20px;
+}
+.card3 a{
+    position: relative;
+    top: -25px;
+}
+.card3 img{
+    position: relative;
+    left: 10px;
+}
+
+
+/* card 4 */
+
+.card4{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -1190px;
+}
+
+.card4 img{
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 130px;
+}
+
+.card4 h5{
+    position: relative;
+    top: -40px;
+}
+.card4 p{
+    position: relative;
+    top: -5px;
+}
+.card4 a{
+    position: relative;
+    top: -50px;
+}
+
+/* card 5 */
+.card5{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -1170px;
+}
+.card5 img{
+    position: relative;
+    left: 60px;
+    width: 120px;
+}
+.card5 h5{
+    position: relative;
+    top: -10px;
+}
+.card5 p{
+    position: relative;
+    top: 10px;
+}
+.card5 a{
+    position: relative;
+    top: -40px;
+}
+
+/* card 6 */
+
+.card6{
+    height: 580px;
+
+    position: relative;
+    left: 200px;
+    top: -1100px;
+
+    border-radius: 30px;
+}
+.card6 img{
+    width: 300px;
+
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+.card6 h5{
+    font-size: 25px;
+}
+.card6 a{
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+.card6 p{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-weight: bold;
+}
+
+/* card 7 */
+
+.card7{
+
+    top: -1680px;
+    position: relative;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card7 img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+.card7 h5{
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+}
+.card7 p{
+    position: relative;
+    top: 80px;
+}
+.card7 a{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+/* card 8 */
+
+.card8{
+    position: relative;
+    top: -1660px;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card8 h5{
+    position: relative;
+    top: 0px;
+}
+.card8 p{
+    position: relative;
+    top: 20px;
+}
+.card8 a{
+    position: relative;
+    top: -25px;
+}
+.card8 img{
+    position: relative;
+    left: 10px;
+}
+
+/* card 9 */
+
+.card9{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -2240px;
+}
+
+.card9 img{
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 130px;
+}
+
+.card9 h5{
+    position: relative;
+    top: -40px;
+}
+.card9 p{
+    position: relative;
+    top: -5px;
+}
+.card9 a{
+    position: relative;
+    top: -50px;
+}
+
+
+/* card 10 */
+
+.card10{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -2220px;
+}
+.card10 img{
+    position: relative;
+    left: 60px;
+    width: 120px;
+}
+.card10 h5{
+    position: relative;
+    top: -10px;
+}
+.card10 p{
+    position: relative;
+    top: 10px;
+}
+.card10 a{
+    position: relative;
+    top: -40px;
+}
+
+/* card 11 */
+
+.card11{
+    height: 580px;
+
+    position: relative;
+    left: 200px;
+    top: -2150px;
+
+    border-radius: 30px;
+}
+.card11 img{
+    width: 300px;
+
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+.card11 h5{
+    font-size: 25px;
+}
+.card11 a{
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+.card11 p{
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-weight: bold;
+}
+
+/* card 12 */
+
+.card12{
+
+    top: -2730px;
+    position: relative;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card12 img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+.card12 h5{
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+}
+.card12 p{
+    position: relative;
+    top: 80px;
+}
+.card12 a{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+/* card 13 */
+
+.card13{
+    position: relative;
+    top: -2710px;
+    left: 750px;
+
+    border-radius: 20px;
+}
+.card13 h5{
+    position: relative;
+    top: 0px;
+}
+.card13 p{
+    position: relative;
+    top: 20px;
+}
+.card13 a{
+    position: relative;
+    top: -25px;
+}
+.card13 img{
+    position: relative;
+    left: 10px;
+}
+
+/* card 14 */
+
+.card14{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -3290px;
+}
+
+.card14 img{
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 130px;
+}
+
+.card14 h5{
+    position: relative;
+    top: -40px;
+}
+.card14 p{
+    position: relative;
+    top: -5px;
+}
+.card14 a{
+    position: relative;
+    top: -50px;
+}
+
+/* card 15 */
+
+.card15{
+    position: relative;
+    border-radius: 20px;
+    left: 1050px;
+    top: -3270px;
+}
+.card15 img{
+    position: relative;
+    left: 60px;
+    width: 120px;
+}
+.card15 h5{
+    position: relative;
+    top: -10px;
+}
+.card15 p{
+    position: relative;
+    top: 10px;
+}
+.card15 a{
+    position: relative;
+    top: -40px;
+}

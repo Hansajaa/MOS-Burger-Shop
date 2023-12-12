@@ -46,21 +46,39 @@
     left: 100px;
 }
 
-/* card */
+/* small card */
 
 .small-card-title{
     position: relative;
     top: 40px;
+    font-size: 16px;
+
+    position: absolute;
+    top: 200px;
     font-size: 16px;
 }
 .small-card-btn{
     position: relative;
     top: 30px;
     left: 100px;
+
+    position: absolute;
+    top: 230px;
+    left: 120px;
 }
 .small-card-para{
     position: relative;
     top: 80px;
+
+    position: absolute;
+    top: 240px;
+}
+.small-card-img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
 }
 
 /* card 1 */
@@ -74,26 +92,30 @@
     border-radius: 30px;
 }
 .card1 img{
-    width: 300px;
+    width: 280px;
 
-    position: relative;
+    position: absolute;
+    top: 80px;
     left: 100px;
-    bottom: 20px;
+
 }
 .card1 h5{
     font-size: 25px;
+    position: absolute;
+    top: 400px;
 }
 .card1 a{
-    position: relative;
-    top: 10px;
+    position:absolute;
+    top: 520px;
     left: 350px;
 }
 .card1 p{
-    position: relative;
-    top: 50px;
+    position:absolute;
+    top: 530px;
     left: 250px;
     font-weight: bold;
 }
+
 /* card 2 */
 .card2{
 
@@ -103,27 +125,7 @@
 
     border-radius: 20px;
 }
-.card2 img{
-    width: 150px;
-    height: 100px;
-    position: relative;
-    top: 25px;
-    left: 50px;
-}
-.card2 h5{
-    position: relative;
-    top: 40px;
-    font-size: 16px;
-}
-.card2 p{
-    position: relative;
-    top: 80px;
-}
-.card2 a{
-    position: relative;
-    top: 30px;
-    left: 100px;
-}
+
 
 
 /* card 3 */
@@ -135,22 +137,7 @@
 
     border-radius: 20px;
 }
-.card3 h5{
-    position: relative;
-    top: 0px;
-}
-.card3 p{
-    position: relative;
-    top: 20px;
-}
-.card3 a{
-    position: relative;
-    top: -25px;
-}
-.card3 img{
-    position: relative;
-    left: 10px;
-}
+
 
 
 /* card 4 */
@@ -162,25 +149,6 @@
     top: -1190px;
 }
 
-.card4 img{
-    position: relative;
-    left: 50px;
-    top: -20px;
-    width: 130px;
-}
-
-.card4 h5{
-    position: relative;
-    top: -40px;
-}
-.card4 p{
-    position: relative;
-    top: -5px;
-}
-.card4 a{
-    position: relative;
-    top: -50px;
-}
 
 /* card 5 */
 .card5{
@@ -189,87 +157,26 @@
     left: 1050px;
     top: -1170px;
 }
-.card5 img{
-    position: relative;
-    left: 60px;
-    width: 120px;
-}
-.card5 h5{
-    position: relative;
-    top: -10px;
-}
-.card5 p{
-    position: relative;
-    top: 10px;
-}
-.card5 a{
-    position: relative;
-    top: -40px;
-}
+
 
 /* card 6 */
 
 .card6{
-    height: 580px;
-
     position: relative;
     left: 200px;
     top: -1100px;
-
     border-radius: 30px;
-}
-.card6 img{
-    width: 300px;
-
-    position: relative;
-    left: 100px;
-    bottom: 20px;
-}
-.card6 h5{
-    font-size: 25px;
-}
-.card6 a{
-    position: relative;
-    top: 10px;
-    left: 350px;
-}
-.card6 p{
-    position: relative;
-    top: 50px;
-    left: 250px;
-    font-weight: bold;
 }
 
 /* card 7 */
 
 .card7{
 
-    top: -1680px;
+    top: -1380px;
     position: relative;
-    left: 750px;
+    left: 480px;
 
     border-radius: 20px;
-}
-.card7 img{
-    width: 150px;
-    height: 100px;
-    position: relative;
-    top: 25px;
-    left: 50px;
-}
-.card7 h5{
-    position: relative;
-    top: 40px;
-    font-size: 16px;
-}
-.card7 p{
-    position: relative;
-    top: 80px;
-}
-.card7 a{
-    position: relative;
-    top: 30px;
-    left: 100px;
 }
 
 /* card 8 */
@@ -281,22 +188,7 @@
 
     border-radius: 20px;
 }
-.card8 h5{
-    position: relative;
-    top: 0px;
-}
-.card8 p{
-    position: relative;
-    top: 20px;
-}
-.card8 a{
-    position: relative;
-    top: -25px;
-}
-.card8 img{
-    position: relative;
-    left: 10px;
-}
+
 
 /* card 9 */
 
@@ -304,174 +196,61 @@
     position: relative;
     border-radius: 20px;
     left: 1050px;
-    top: -2240px;
+    top: -1940px;
 }
-
-.card9 img{
-    position: relative;
-    left: 50px;
-    top: -20px;
-    width: 130px;
-}
-
-.card9 h5{
-    position: relative;
-    top: -40px;
-}
-.card9 p{
-    position: relative;
-    top: -5px;
-}
-.card9 a{
-    position: relative;
-    top: -50px;
-}
-
 
 /* card 10 */
 
 .card10{
     position: relative;
     border-radius: 20px;
-    left: 1050px;
-    top: -2220px;
+    left: 200px;
+    top: -1870px;
 }
-.card10 img{
-    position: relative;
-    left: 60px;
-    width: 120px;
-}
-.card10 h5{
-    position: relative;
-    top: -10px;
-}
-.card10 p{
-    position: relative;
-    top: 10px;
-}
-.card10 a{
-    position: relative;
-    top: -40px;
-}
+
 
 /* card 11 */
 
 .card11{
-    height: 580px;
+
 
     position: relative;
-    left: 200px;
+    left: 470px;
     top: -2150px;
 
     border-radius: 30px;
-}
-.card11 img{
-    width: 300px;
-
-    position: relative;
-    left: 100px;
-    bottom: 20px;
-}
-.card11 h5{
-    font-size: 25px;
-}
-.card11 a{
-    position: relative;
-    top: 10px;
-    left: 350px;
-}
-.card11 p{
-    position: relative;
-    top: 50px;
-    left: 250px;
-    font-weight: bold;
 }
 
 /* card 12 */
 
 .card12{
 
-    top: -2730px;
+    top: -2430px;
     position: relative;
     left: 750px;
 
     border-radius: 20px;
 }
-.card12 img{
-    width: 150px;
-    height: 100px;
-    position: relative;
-    top: 25px;
-    left: 50px;
-}
-.card12 h5{
-    position: relative;
-    top: 40px;
-    font-size: 16px;
-}
-.card12 p{
-    position: relative;
-    top: 80px;
-}
-.card12 a{
-    position: relative;
-    top: 30px;
-    left: 100px;
-}
+
 
 /* card 13 */
 
 .card13{
     position: relative;
     top: -2710px;
-    left: 750px;
+    left: 1050px;
 
     border-radius: 20px;
 }
-.card13 h5{
-    position: relative;
-    top: 0px;
-}
-.card13 p{
-    position: relative;
-    top: 20px;
-}
-.card13 a{
-    position: relative;
-    top: -25px;
-}
-.card13 img{
-    position: relative;
-    left: 10px;
-}
+
 
 /* card 14 */
 
 .card14{
     position: relative;
     border-radius: 20px;
-    left: 1050px;
-    top: -3290px;
-}
-
-.card14 img{
-    position: relative;
-    left: 50px;
-    top: -20px;
-    width: 130px;
-}
-
-.card14 h5{
-    position: relative;
-    top: -40px;
-}
-.card14 p{
-    position: relative;
-    top: -5px;
-}
-.card14 a{
-    position: relative;
-    top: -50px;
+    left: 200px;
+    top: -2640px;
 }
 
 /* card 15 */
@@ -479,23 +258,6 @@
 .card15{
     position: relative;
     border-radius: 20px;
-    left: 1050px;
-    top: -3270px;
-}
-.card15 img{
-    position: relative;
-    left: 60px;
-    width: 120px;
-}
-.card15 h5{
-    position: relative;
-    top: -10px;
-}
-.card15 p{
-    position: relative;
-    top: 10px;
-}
-.card15 a{
-    position: relative;
-    top: -40px;
+    left: 480px;
+    top: -2920px;
 }

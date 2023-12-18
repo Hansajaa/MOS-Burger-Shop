@@ -14,21 +14,30 @@ document.getElementById("btnCustAdd").onclick = function(){
     let custContactNumber = document.getElementById("custContactNumber").value;
     let custName = document.getElementById("custName").value;
 
-    customerList.push(
-        {
-            contactNumber : custContactNumber,
-            Name : custName
-        }
-    );
+    // console.log(typeof Number(custContactNumber));
 
-    const newCustomer = createCustomer(custContactNumber, custName);
-    tableBody.appendChild(newCustomer);
+    if(custContactNumber.length == 10){
+        customerList.push(
+            {
+                contactNumber : custContactNumber,
+                Name : custName
+            }
+        );
 
-    document.getElementById("custContactNumber").value = '';
-    document.getElementById("custName").value = '';
+        
+        const newCustomer = createCustomer(custContactNumber, custName);
+        tableBody.appendChild(newCustomer);
+    
+        document.getElementById("custContactNumber").value = '';
+        document.getElementById("custName").value = '';
+    
+        console.log(customerList);
+    }else{
+        alert("Enter a valid contact Number !")
+    }
 
-    console.log(customerList);
 
+        
     
 }
 

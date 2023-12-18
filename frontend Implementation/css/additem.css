@@ -50,3 +50,23 @@
     position: relative;
     top: 30px;
 }
+tbody tr td button{
+    display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #dc3545;
+	background-color: #ffffff;
+    border-color: #dc3545;
+}
+
+tbody tr td button:hover{
+    background-color: #dc3545;
+    color: #ffffff;
+      
+}

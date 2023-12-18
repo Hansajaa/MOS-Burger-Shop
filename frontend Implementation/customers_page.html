@@ -45,21 +45,21 @@
         <div class="row">
             <div class="col col-left">
                 <p>Customer Contact Number</p>
-                <input type="text" class="form-control" style="width: 300px;" placeholder="Contact Number">
+                <input id="custContactNumber" type="text" class="form-control" style="width: 300px;" placeholder="Contact Number">
             </div>
             <div class="col">
                 <p>Customer Name</p>
-                <input type="text" class="form-control" style="width: 300px;" placeholder="Name">
+                <input id="custName" type="text" class="form-control" style="width: 300px;" placeholder="Name">
             </div>
         </div>
     </form>
 
     <div class="text-center btn-set">
-        <button class="btn btn-outline-primary" style="margin-right: 15px;">Add</button>
+        <button id="btnCustAdd" class="btn btn-outline-primary" style="margin-right: 15px;">Add</button>
         <button class="btn btn-outline-warning">Update</button>
     </div>
     <!-- customer table -->
-    <table class="table table-striped" style="width: 900px;">
+    <table id="tblCustomer" class="table table-striped" style="width: 900px;">
         <thead>
             <tr>
                 <th scope="col">Contact Number</th>
@@ -67,28 +67,31 @@
                 <th scope="col">Option</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
+        <tbody id="tblBody">
+            <!-- <tr>
                 <th scope="row">0714408801</th>
                 <td>Kamal</td>
                 <td><button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Delete</button></td>
             </tr>
             <tr>
-                <th scope="row">0766503598</th>
+                <td>0766503598</td>
                 <td>Nilana</td>
                 <td><button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Delete</button></td>
             </tr>
             <tr>
-                <th scope="row">0716811953</th>
+                <td>0716811953</td>
                 <td>Nimal</td>
                 <td><button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Delete</button></td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+
+    <script src="./js/customer.js"></script>
 </body>
 
 </html>

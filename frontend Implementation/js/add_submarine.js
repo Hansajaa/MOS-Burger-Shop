@@ -1,22 +1,22 @@
-// burger list
-const burgerList = []
+// submarine list
+const submarineList = []
 
-// burger table
+// submarine table
 // const burgerTable = document.getElementById("");
 
 // table body
-const tableBody = document.getElementById('tblBurger');
+const tableBody = document.getElementById('tblSubmarine');
 
 // add button action
-document.getElementById("btnBurgerAdd").onclick = function(){
+document.getElementById("btnSubmarineAdd").onclick = function(){
     
-    let itemName = document.getElementById("burgerName").value;
-    let itemPrice = document.getElementById("burgerPrice").value;
+    let itemName = document.getElementById("submarineName").value;
+    let itemPrice = document.getElementById("submarinePrice").value;
 
     // console.log(typeof Number(custContactNumber));
 
     if(itemName != '' && itemPrice != ''){
-        burgerList.push(
+        submarineList.push(
             {
                 Name : itemName,
                 Price : itemPrice
@@ -27,12 +27,15 @@ document.getElementById("btnBurgerAdd").onclick = function(){
         const newItem = createItem(itemName, itemPrice);
         tableBody.appendChild(newItem);
     
-        document.getElementById("burgerName").value = '';
-        document.getElementById("burgerPrice").value = '';
+        document.getElementById("submarineName").value = '';
+        document.getElementById("submarinePrice").value = '';
     
-        console.log(burgerList);
+        console.log(submarineList);
+
     }else{
-        alert("Enter a valid details !")
+
+        alert("Enter a valid details !");
+
     }
 
 
@@ -40,7 +43,7 @@ document.getElementById("btnBurgerAdd").onclick = function(){
     
 }
 
-// create new burger row
+// create new submarine row
 function createItem(itemName, price){
     const row = document.createElement('tr');
     

@@ -1,11 +1,53 @@
 // submarine list
-const submarineList = []
-
-// submarine table
-// const burgerTable = document.getElementById("");
+const submarineList = [
+    {
+        Name: "Crispy Chicken Submarine (Large) ",
+        Price: 2000
+    },
+    {
+        Name: "Crispy Chicken Submarine (Regular) ",
+        Price: 1500
+    },
+    {
+        Name: "Chicken Submarine (Large) ",
+        Price: 1800
+    },
+    {
+        Name: "Chicken Submarine (Regular)",
+        Price: 1400
+    },
+    {
+        Name: "Grinder Submarine",
+        Price: 2300
+    },
+    {
+        Name: "Cheese Submarine",
+        Price: 2200
+    },
+    {
+        Name: "Double Cheese n Chicken Submarine",
+        Price: 1900
+    },
+    {
+        Name: "Special Horgie Submarine",
+        Price: 2800
+    },
+    {
+        Name: "MOS Special Submarine",
+        Price: 3000
+    },
+]
 
 // table body
 const tableBody = document.getElementById('tblSubmarine');
+
+
+function loadTable(){
+    for(i=0; i<submarineList.length; i++){
+        let item=createItem(submarineList[i].Name,submarineList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnSubmarineAdd").onclick = function(){

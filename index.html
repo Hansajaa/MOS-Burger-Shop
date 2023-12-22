@@ -13,12 +13,28 @@
     <div class="login-form">
         <h1 style="color: #198754; font-family: Verdana, Geneva, Tahoma, sans-serif;">Welcome to MOS Burger Shop</h1>
         <div class="container">
-            <input class="form-control" type="text" placeholder="Enter a Email">
-            <input class="form-control" type="password" placeholder="password">
-            <a href="./view/burger.html">
-                <button class="btn btn-outline-success">login</button>
+            <input id="txtMail" class="form-control" type="text" placeholder="Enter a Email" required>
+            <input id="txtPassword" class="form-control" type="password" placeholder="password" required>
+            <a>
+                <button onclick="login()" class="btn btn-outline-success">login</button>
             </a>
         </div>
     </div>
+
+    <!-- login verification -->
+    <script type="text/javascript">
+        function login() {
+
+            const mail = document.getElementById("txtMail").value;
+            const password = document.getElementById("txtPassword").value;
+
+            if(mail === "Admin" && password === "1234"){
+                window.location.href = "./view/burger.html";
+            }else{
+                alert("wrong email or password !")
+            }
+               
+        }
+    </script>
 </body>
 </html>

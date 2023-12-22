@@ -1,11 +1,45 @@
 // pasta list
-const pastaList = []
-
-// pasta table
-// const burgerTable = document.getElementById("");
+const pastaList = [
+    {
+        Name: "Chicken n Cheese Pasta",
+        Price: 1600
+    },
+    {
+        Name: "Chicken Penne Pasta ",
+        Price: 1700
+    },
+    {
+        Name: "Ground Turkey Pasta Bake",
+        Price: 2900
+    },
+    {
+        Name: "Creamy Shrimp Pasta ",
+        Price: 2000
+    },
+    {
+        Name: "Lemon Butter Pasta ",
+        Price: 1950
+    },
+    {
+        Name: "Tagliatelle Pasta",
+        Price: 2400
+    },
+    {
+        Name: "Baked Ravioli ",
+        Price: 2000
+    },
+]
 
 // table body
 const tableBody = document.getElementById('tblPasta');
+
+
+function loadTable(){
+    for(i=0; i<pastaList.length; i++){
+        let item=createItem(pastaList[i].Name,pastaList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnPastaAdd").onclick = function(){

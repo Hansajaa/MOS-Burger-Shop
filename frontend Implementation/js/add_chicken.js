@@ -1,11 +1,40 @@
 // chicken list
-const chickenList = []
-
-// chicken table
-// const burgerTable = document.getElementById("");
+const chickenList = [
+    {
+        Name: "Fried Chicken (Small)",
+        Price: 1200
+    },
+    {
+        Name: "Fried Chicken (Regular)",
+        Price: 2300
+    },
+    {
+        Name: "Fried Chicken (Large) ",
+        Price: 3100
+    },
+    {
+        Name: "Hot Wings (Large)",
+        Price: 2400
+    },
+    {
+        Name: "Devilled Chicken (Large) ",
+        Price: 900
+    },
+    {
+        Name: "BBQ Chicken (Regular) ",
+        Price: 2100
+    },
+]
 
 // table body
 const tableBody = document.getElementById('tblChicken');
+
+function loadTable(){
+    for(i=0; i<chickenList.length; i++){
+        let item=createItem(chickenList[i].Name,chickenList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnChickenAdd").onclick = function(){

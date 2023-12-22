@@ -1,11 +1,32 @@
 // beverage list
-const beveragesList = []
-
-// beverage table
-// const burgerTable = document.getElementById("");
+const beveragesList = [
+    {
+        Name:"Pepsi (330ml)",
+        Price: 990
+    },
+    {
+        Name:"Coca-Cola (330ml)",
+        Price: 1230
+    },
+    {
+        Name:"Sprite (330ml)",
+        Price: 1500
+    },
+    {
+        Name:"Mirinda (330ml) ",
+        Price: 850
+    }
+]
 
 // table body
 const tableBody = document.getElementById('tblBeverages');
+
+function loadTable(){
+    for(i=0; i<beveragesList.length; i++){
+        let item = createItem(beveragesList[i].Name,beveragesList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnBeveragesAdd").onclick = function(){

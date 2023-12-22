@@ -1,0 +1,20 @@
+.login-form{
+  margin-left: 30%;
+  margin-top: 15%;
+  width: 50%;
+  height: 30%;
+  color: black;
+}
+.login-form input{
+  width: 50%;
+  margin: 5%;
+  border-radius: 20px;
+}
+.login-form button{
+  margin-left: 3%;
+  width: 55%;
+  border-radius: 20px;
+}
+.container{
+  margin: 8%;
+}

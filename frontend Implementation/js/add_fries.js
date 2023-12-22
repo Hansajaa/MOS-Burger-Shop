@@ -1,11 +1,40 @@
 // fires list
-const firesList = []
-
-// fires table
-// const burgerTable = document.getElementById("");
+const friesList = [
+    {
+        Name:"Steak Fries (Large) ",
+        Price: 1200
+    },
+    {
+        Name:"Steak Fries (Medium)",
+        Price: 600
+    },
+    {
+        Name:"French Fries (Large) ",
+        Price: 800
+    },
+    {
+        Name:"French Fries (Medium)",
+        Price: 650
+    },
+    {
+        Name:"French Fries (Small)",
+        Price: 450
+    },
+    {
+        Name:"Sweet Potato Fries (Large) ",
+        Price: 600
+    },
+]
 
 // table body
 const tableBody = document.getElementById('tblFries');
+
+function loadTable(){
+    for(i=0; i<friesList.length; i++){
+        let item=createItem(friesList[i].Name,friesList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnFriesAdd").onclick = function(){
@@ -13,10 +42,8 @@ document.getElementById("btnFriesAdd").onclick = function(){
     let itemName = document.getElementById("friesName").value;
     let itemPrice = document.getElementById("friesPrice").value;
 
-    // console.log(typeof Number(custContactNumber));
-
     if(itemName != '' && itemPrice != ''){
-        firesList.push(
+        friesList.push(
             {
                 Name : itemName,
                 Price : itemPrice

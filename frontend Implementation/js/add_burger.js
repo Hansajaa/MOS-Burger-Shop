@@ -1,11 +1,58 @@
 // burger list
-const burgerList = []
-
-// burger table
-// const burgerTable = document.getElementById("");
+const burgerList = [
+    {
+        Name:"Classic Burger (Large) ", Price:"750"
+    },
+    {
+        Name:"Classic Burger (Regular) ", Price:"1500"
+    },
+    {
+        Name:"Turkey Burger ", Price:"1600"
+    },
+    {
+        Name:"Chicken Burger (Large)", Price:"1400"
+    },
+    {
+        Name:"Chicken Burger (Regular) ", Price:"800"
+    },
+    {
+        Name:"Cheese Burger (Large) ", Price:"1000"
+    },
+    {
+        Name:"Cheese Burger (Regular) ", Price:"600"
+    },
+    {
+        Name:"Bacon Burger", Price:"650"
+    },
+    {
+        Name:"Shawarma Burger", Price:"800"
+    },
+    {
+        Name:"Olive Burger", Price:"1800"
+    },
+    {
+        Name:"Double-Cheese Burger", Price:"1250"
+    },
+    {
+        Name:"Crispy Chicken Burger (Regular)", Price:"1300"
+    },
+    {
+        Name:"Crispy Chicken Burger (Large) ", Price:"1600"
+    },
+    {
+        Name:" Paneer Burger", Price:"900"
+    }
+]
 
 // table body
 const tableBody = document.getElementById('tblBurger');
+
+function loadTable(){
+    for(i=0; i<burgerList.length; i++){
+        let item=createItem(burgerList[i].Name,burgerList[i].Price);
+        tableBody.appendChild(item);
+    }
+}
 
 // add button action
 document.getElementById("btnBurgerAdd").onclick = function(){
@@ -33,11 +80,7 @@ document.getElementById("btnBurgerAdd").onclick = function(){
         console.log(burgerList);
     }else{
         alert("Enter a valid details !")
-    }
-
-
-        
-    
+    }    
 }
 
 // create new burger row

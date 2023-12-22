@@ -16,7 +16,7 @@ document.getElementById("btnCustAdd").onclick = function(){
 
     // console.log(typeof Number(custContactNumber));
 
-    if(custContactNumber.length == 10){
+    if(custContactNumber.length == 10 && custContactNumber != '' && custName != ''){
         customerList.push(
             {
                 contactNumber : custContactNumber,
@@ -33,7 +33,7 @@ document.getElementById("btnCustAdd").onclick = function(){
     
         console.log(customerList);
     }else{
-        alert("Enter a valid contact Number !")
+        alert("Enter valid details !")
     }
 
 

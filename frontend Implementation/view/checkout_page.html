@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/frontend Implementation/css/checkout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- main navigation bar  -->
+
+    <div class="container align-content-left main-navbar">
+        <ul id="navbar-padding" class="nav justify-content-left main-navigation">
+            <li class="nav-item navbar-item-padding">
+                <a class="nav-link navbar-text-color" href="/frontend Implementation/index.html">Menu</a>
+            </li>
+            <li class="nav-item navbar-item-padding">
+                <a class="nav-link navbar-text-color" href="/frontend Implementation/customers_page.html">Customers</a>
+            </li>
+            <li class="nav-item navbar-item-padding">
+                <a class="nav-link navbar-text-color" href="/frontend Implementation/orders_page.html">Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="/frontend Implementation/reports_page.html">Reports</a>
+            </li>
+
+        </ul>
+        <div class="container align-content-end search-form">
+            <ul id="navbar-padding" class="nav justify-content-end">
+                <li class="nav-item">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </li>
+                <li class="nav-item btn-Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Checkout form  -->
+
+    <div class="container">
+        <div class="col-left">
+            <div class="row">
+                <div class="col col-lg-3" style="margin-top: 90px; margin-bottom: 30px; margin-left: 30px;">
+                    <p>Order ID</p>
+                    <input type="text" class="form-control" readonly>
+                </div>
+            </div>
+            <div class="row" style="margin-left: 20px;">
+                <div class="col col-lg-3">
+                    <p>Customer Name</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col col-lg-3">
+                    <p>Customer Contact Number</p>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <p style="margin-left: 30px; margin-top: 40px; font-weight: bold; font-style: italic;">payment</p>
+
+            <div class="form-check form-check-inline" style="margin-left: 30px;">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Cash">
+                <label class="form-check-label" for="inlineRadio1">Cash payment</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Card">
+                <label class="form-check-label" for="inlineRadio2">Card payment</label>
+            </div>
+            <br>
+
+            <button class="btn btn-outline-success col-lg-4"
+                style="margin-top: 50px; margin-left: 40px;">Checkout</button>
+            </form>
+        </div>
+        <div class="col-right">
+            <h5>Cart</h5>
+            <table class="table table-sm table-dark" style="width: 450px; border-radius: 20px;">
+                <thead>
+                    <tr>
+                        <th scope="col">Item name</th>
+                        <th scope="col">price</th>
+                        <th scope="col">discount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Classic Burger (Large) </td>
+                        <td>750.00 </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Classic Burger (Regular)</td>
+                        <td>1500.00 </td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>Turkey Burger</td>
+                        <td>1600.00 </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Turkey Burger</td>
+                        <td>1600.00 </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Turkey Burger</td>
+                        <td>1600.00 </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Turkey Burger</td>
+                        <td>1600.00 </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col">
+                    <p>Discount</p>
+                </div>
+                <div class="col">
+                    <input style="margin-left: -70px;" type="text" class="form-control">
+                </div>
+                <div class="col">
+                    <p style="margin-left: -80px;">%</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Total : Rs.</p>
+                </div>
+                <div class="col">
+                    <label style="margin-left: -170px;">3850</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input style="width: 250px;" type="text" class="form-control" placeholder="Promo Code">
+                </div>
+                <div class="col">
+                    <button class="btn btn-outline-warning">Redeem</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="checkout-form">
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>

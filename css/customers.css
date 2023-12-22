@@ -1,0 +1,72 @@
+.main-navbar{
+    position: sticky;
+    top: 0px;
+
+}
+.main-navigation li{
+    margin-top: 10px;
+}
+.main-navigation li a{
+    color: black;
+}
+.search-form{
+    width: 300px;
+
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+.main-navigation{
+    width: 400px;
+    top: 40px;
+
+}
+.btn-Search{
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+
+.col-left{
+    position: relative;
+    left: 250px;
+}
+
+.table{
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.table thead tr th{
+    width: 100px;
+}
+.btn-set{
+    position: relative;
+    top: 80px;
+    left: 350px;
+}
+.row{
+    position: relative;
+    top: 30px;
+}
+tbody tr td button{
+    display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #dc3545;
+	background-color: #ffffff;
+    border-color: #dc3545;
+}
+
+tbody tr td button:hover{
+    background-color: #dc3545;
+    color: #ffffff;
+      
+}

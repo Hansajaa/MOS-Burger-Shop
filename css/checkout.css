@@ -1,0 +1,55 @@
+.main-navbar{
+    position: sticky;
+    top: 0px;
+
+}
+.main-navigation li{
+    margin-top: 10px;
+}
+.main-navigation li a{
+    color: black;
+}
+.search-form{
+    width: 300px;
+
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+.main-navigation{
+    width: 400px;
+    top: 40px;
+
+}
+.navbar-text-color{
+    color: black;
+}
+.btn-Search{
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+/* checkout form */
+
+.checkout-form{
+    position: relative;
+    top: 100px;
+}
+
+.form-check{
+    display: flex;
+}
+.col-left{
+    flex-basis: 30%;
+}
+.col-right{
+    position: absolute;
+    left: 870px;
+    top: 180px;
+    flex-basis: 60%;
+}
+.col-right h5{
+    text-align: center;
+    font-weight: bold;
+}
